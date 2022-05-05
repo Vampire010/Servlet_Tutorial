@@ -1,0 +1,18 @@
+<web-app>
+<display-name>SoftwareTestingXperts</display-name>
+
+<welcome-file-list>
+	<welcome-file>index_res.html</welcome-file>
+</welcome-file-list>
+
+<servlet>
+	<servlet-name>DemoServlet</servlet-name>
+	<servlet-class>com.app.servlet.MyServletRespnse</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DemoServlet</servlet-name>
+	<url-pattern>/mydeatils</url-pattern>
+</servlet-mapping>
+
+</web-app>
